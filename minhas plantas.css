@@ -1,0 +1,89 @@
+html {
+    color: black;
+    margin: 3rem;
+}
+
+#fundo{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("./background-plantas-2.webp");
+    background-position: center
+}
+
+#fundo2 {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("./background-cactos.png");
+    background-position: center
+}
+
+#fundo3 {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("./background-plantas-3.jpg");
+    background-position: center
+}
+
+@font-face {
+    font-family: AmaticSC;
+    src: url("AmaticSC-Regular.ttf")
+}
+
+h1 {
+    font-family: 'AmaticSC', cursive;
+    font-size: xxx-large;
+}
+
+h2 {
+    font-family: 'AmaticSC', cursive;
+    font-size: xx-large;
+}
+
+@font-face {
+    font-family: Lobster;
+    src: url("lobster-two-latin-400-normal.ttf");
+}
+
+@font-face {
+    font-family: Grotesque;
+    src: url("darker-grotesque-latin-600-normal.ttf");
+}
+
+article,
+section,
+footer {
+    font-family: 'Grotesque', sans-serif;
+    font-size: larger;
+}
+
+form,
+input,
+select,
+button,
+textarea {
+    font-family: 'Grotesque', sans-serif;
+    font-size: large;
+}
+
+@font-face {
+    font-family: Avocado Cake;
+    src: url("Avocado\ Cake\ Demo.otf");
+}
+
+#categoria {
+    font-family: 'Avocado Cake', sans-serif;
+    font-size: larger;
+}
+
+@font-face {
+    font-family: Song;
+    src: url("Please\ write\ me\ a\ song.ttf");
+}
+
+#especie {
+    font-family: 'Song', sans-serif;
+    font-size: x-large;
+}
+
+a {
+    color: darkgreen;
+    text-decoration: none;
+}
+
+a:hover{
+    color: darkslategray;
+}
